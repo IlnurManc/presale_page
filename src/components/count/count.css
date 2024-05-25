@@ -1,0 +1,54 @@
+.count__input {
+    color: #fff;
+    background-color: #232328;
+    border-radius: 20px;
+    padding: 0px 20px;
+    margin-left: 40px;
+    width: 350px;
+}
+
+.count__input::-webkit-inner-spin-button,
+.count__input::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+.count__row {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.count__button {
+    margin-right: 20px;
+    background-color: #31A6F5;
+    color: #FFFFFF;
+    padding: 8px 12px 8px 12px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+
+.count__price {
+    color: #fff;
+    padding: 0px 40px;
+    padding-bottom: 0px;
+}
+
+.count__perwallet {
+    color: #d9d9d9;
+    padding: 0px 40px;
+    padding-bottom: 0px;
+}
+
+.count__choose {
+    color: #fff;
+    padding: 30px 40px;
+    padding-bottom: 0px;
+}

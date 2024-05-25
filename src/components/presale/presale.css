@@ -1,0 +1,16 @@
+.presale {
+    border-radius: 20px;
+    background-color: #2F2F33;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.presale__title {
+    color: #fff;
+    padding: 30px 40px;
+    padding-bottom: 30px;
+}
+
+.presale__padding {
+    padding: 5px 0px;
+}
