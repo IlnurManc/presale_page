@@ -4,7 +4,7 @@
     border-radius: 20px;
     padding: 0px 20px;
     margin-left: 40px;
-    width: 250px;
+    width: 350px;
 }
 
 .count__input::-webkit-inner-spin-button,
@@ -51,4 +51,10 @@
     color: #fff;
     padding: 30px 40px;
     padding-bottom: 0px;
+}
+
+.count__send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

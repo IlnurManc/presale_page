@@ -1,10 +1,11 @@
 import './count.css'
+import './media.css'
 import {SendTx} from "../sendTransaction/SendTx";
 
 const Count = ({wallet, changeValue, changeSum, changePerwallet}) => {
     const {count, price, priceTotal, perwallet, id} = wallet;
     return (  
-        <div>
+        <div >
             <div className="count__price">
                 {price} TON
             </div>
@@ -25,7 +26,7 @@ const Count = ({wallet, changeValue, changeSum, changePerwallet}) => {
                     <button onClick={()=>{changeSum(id, perwallet)}}>MAX {perwallet}</button>
                 </div>
             </div>
-            <div><SendTx priceTotal={priceTotal} changePerwallet={changePerwallet} id={id} count={count}/></div>
+            <div className="count__send"><SendTx priceTotal={priceTotal} changePerwallet={changePerwallet} id={id} count={count}/></div>
         </div>
     );
 }

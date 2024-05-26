@@ -1,0 +1,41 @@
+@media (max-width: 480px) {
+    .count__input {
+        width: 330px;
+    }
+}
+
+@media (max-width: 460px) {
+    .count__input {
+        width: 310px;
+    }
+}
+
+@media (max-width: 440px) {
+    .count__input {
+        width: 290px;
+    }
+}
+
+@media (max-width: 420px) {
+    .count__input {
+        width: 270px;
+    }
+}
+
+@media (max-width: 400px) {
+    .count__input {
+        width: 250px;
+    }
+}
+
+@media (max-width: 380px) {
+    .count__input {
+        width: 230px;
+    }
+}
+
+@media (max-width: 360px) {
+    .count__input {
+        width: 210px;
+    }
+}

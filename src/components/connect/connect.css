@@ -1,0 +1,22 @@
+.connect {
+    border-radius: 20px;
+    background-color: #2F2F33;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 30px 0 30px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect__title {
+    color: #fff;
+    text-align: center;
+}
+
+.connect__button {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+}

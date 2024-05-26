@@ -1,6 +1,7 @@
 import {useTonWallet, useIsConnectionRestored, useTonConnectUI} from "@tonconnect/ui-react";
 import {useState} from "react";
 import './sendtx.css'
+import React from "react";
 //import {Settings} from "../../Settings";
 
 export const SendTx = ({priceTotal, changePerwallet, id, count}) => {
@@ -38,7 +39,7 @@ export const SendTx = ({priceTotal, changePerwallet, id, count}) => {
                     messages: [
                         {
                             amount: (priceTotal*1000000000).toString(),
-                            address: '0:0249D6163A6EE4B0E57F0CD7979CCE4F1E549472BD6B174759AC1F499908DB05'
+                            address: '0:049e6ad8f05f90eb01808a25f08ca28efb2b3d57cbfba12617246c823c914c1a'
                         }
                     ]
                 });
