@@ -14,7 +14,7 @@ const wallets = [
         priceTotal: 1.2,
     },
     {
-        id: 'EQAtj5dCWRWx50u67Um-XW-nl26aLF72XpV1Ju1yEUqFj3wn',
+        id: 'EQAE_vyAeQ2ZkViRoZX5IuGLMVs9Q4qUVf_PjCmjfpApvJAL',
         count: 1,
         perwallet: 10,
         price: 1.5,
