@@ -14,6 +14,19 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
           manifestUrl="https://s3.timeweb.com/301e4ceb-a1ef5c23-eed7-4903-86d7-94f30690ac2e/tonconnect/tonconnect.json"
           language="en"
           uiPreferences={{ theme: 'SYSTEM' }}
+          walletsListConfiguration={{
+            includeWallets: [
+              {
+                "appName": "telegram-wallet",
+                "name": "Wallet",
+                "imageUrl": "https://wallet.tg/images/logo-288.png",
+                "aboutUrl": "https://wallet.tg/",
+                "universalLink": "https://t.me/wallet?attach=wallet",
+                "bridgeUrl": "https://bridge.ton.space/bridge",
+                "platforms": ["ios", "android", "macos", "windows", "linux"]
+              },
+            ]
+          }}
       >
         <App />
       </TonConnectUIProvider>
