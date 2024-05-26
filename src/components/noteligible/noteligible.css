@@ -10,3 +10,45 @@
     color: #fff;
     text-align: center;
 }
+
+@media (max-width: 480px) {
+    .noteligible {
+        max-width: 460px;
+    }
+}
+
+@media (max-width: 460px) {
+    .noteligible {
+        max-width: 440px;
+    }
+}
+
+@media (max-width: 440px) {
+    .noteligible {
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 420px) {
+    .noteligible {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .noteligible {
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 380px) {
+    .noteligible {
+        max-width: 360px;
+    }
+}
+
+@media (max-width: 360px) {
+    .noteligible {
+        max-width: 340px;
+    }
+}
