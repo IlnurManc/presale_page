@@ -21,5 +21,5 @@ const wallets = [
         priceTotal: 1.5,
     }
 ]
-
+//EQACSdYWOm7ksOV_DNeXnM5PHlSUcr1rF0dZrB9JmQjbBXFz
 export default wallets;
