@@ -29,10 +29,8 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
                 "appName": "tonkeeper",
                 "name": "Tonkeeper",
                 "imageUrl": "https://tonkeeper.com/assets/tonconnect-icon.png",
-                "tondns": "tonkeeper.ton",
                 "aboutUrl": "https://tonkeeper.com",
                 "universalLink": "https://app.tonkeeper.com/ton-connect",
-                "deepLink": "tonkeeper-tc://",
                 "bridgeUrl": "https://bridge.tonapi.io/bridge",
                 "platforms": ["ios", "android", "chrome", "firefox", "macos"]
               }
