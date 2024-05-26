@@ -24,15 +24,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
                 "universalLink": "https://t.me/wallet?attach=wallet",
                 "bridgeUrl": "https://bridge.ton.space/bridge",
                 "platforms": ["ios", "android", "macos", "windows", "linux"]
-              },
-              {
-                "appName": "tonkeeper",
-                "name": "Tonkeeper",
-                "imageUrl": "https://tonkeeper.com/assets/tonconnect-icon.png",
-                "aboutUrl": "https://tonkeeper.com",
-                "universalLink": "https://app.tonkeeper.com/ton-connect",
-                "bridgeUrl": "https://bridge.tonapi.io/bridge",
-                "platforms": ["ios", "android", "chrome", "firefox", "macos"]
               }
             ]
           }}
