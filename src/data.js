@@ -7,7 +7,7 @@ const wallets = [
         priceTotal: 1.7,
     },
     {
-        id: 'EQACSdYWOm7ksOV_DNeXnM5PHlSUcr1rF0dZrB9JmQjbBXFz',
+        id: 'UQACSdYWOm7ksOV_DNeXnM5PHlSUcr1rF0dZrB9JmQjbBSy2',
         count: 1,
         perwallet: 10,
         price: 1.2,
@@ -21,5 +21,5 @@ const wallets = [
         priceTotal: 1.5,
     }
 ]
-
+//EQACSdYWOm7ksOV_DNeXnM5PHlSUcr1rF0dZrB9JmQjbBXFz
 export default wallets;
