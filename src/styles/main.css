@@ -9,3 +9,24 @@ body {
     padding: 0 30px;
     ;
 }
+div[data-tc-text="true"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width: 460px) {
+    div[data-tc-text="true"] {
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+@media (max-width: 450px) {
+    div[data-tc-text="true"] {
+        font-size: 13px;
+    }
+}
+@media (max-width: 440px) {
+    div[data-tc-text="true"] {
+        font-size: 11px;
+    }
+}

@@ -12,7 +12,9 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       <TonConnectUIProvider
           manifestUrl="https://s3.timeweb.com/301e4ceb-a1ef5c23-eed7-4903-86d7-94f30690ac2e/tonconnect/tonconnect.json"
           language="en"
-          uiPreferences={{ theme: THEME.LIGHT }}
+          uiPreferences={{ theme: THEME.LIGHT
+                        , colorsSet: {[THEME.LIGHT]: {connectButton: {background: 'white', foreground: 'black'}}} 
+                        }}
       >
         <App />
       </TonConnectUIProvider>
