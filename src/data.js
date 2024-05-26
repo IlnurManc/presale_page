@@ -1,6 +1,6 @@
 const wallets = [
     {
-        id: 'xxx',
+        id: 'EQAtj5dCWRWx50u67Um-XW-nl26aLF72XpV1Ju1yEUqFj3wn',
         count: 1,
         perwallet: 7,
         price: 1.7,
@@ -14,7 +14,7 @@ const wallets = [
         priceTotal: 1.2,
     },
     {
-        id: 'xxx2',
+        id: 'EQAtj5dCWRWx50u67Um-XW-nl26aLF72XpV1Ju1yEUqFj3wn',
         count: 1,
         perwallet: 10,
         price: 1.5,
