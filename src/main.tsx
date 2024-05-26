@@ -1,34 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from "react-router-dom";
+import {TonConnectUIProvider} from "@tonconnect/ui-react";
 import App from './App.tsx'
 import "./styles/reset.css"
 import "./styles/main.css"
-import {TonConnectUIProvider} from "@tonconnect/ui-react";
-import WebApp from '@twa-dev/sdk'
+//import WebApp from '@twa-dev/sdk'
 
-WebApp.ready();
+//WebApp.ready();
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
+  //<React.StrictMode>
+  <BrowserRouter>
       <TonConnectUIProvider
           manifestUrl="https://s3.timeweb.com/301e4ceb-a1ef5c23-eed7-4903-86d7-94f30690ac2e/tonconnect/tonconnect.json"
           language="en"
           uiPreferences={{ theme: 'SYSTEM' }}
-          walletsListConfiguration={{
-            includeWallets: [
-              {
-                "appName": "telegram-wallet",
-                "name": "Wallet",
-                "imageUrl": "https://wallet.tg/images/logo-288.png",
-                "aboutUrl": "https://wallet.tg/",
-                "universalLink": "https://t.me/wallet?attach=wallet",
-                "bridgeUrl": "https://bridge.ton.space/bridge",
-                "platforms": ["ios", "android", "macos", "windows", "linux"]
-              }
-            ]
-          }}
       >
         <App />
       </TonConnectUIProvider>
-  </React.StrictMode>,
+  </BrowserRouter>
+  //</React.StrictMode>
 )
