@@ -19,6 +19,13 @@ const wallets = [
         perwallet: 10,
         price: 1.5,
         priceTotal: 1.5,
+    },
+    {
+        id: 'UQDwn9nS5r2u10MFpfiC_hzqhoddXX70JGk3vQzg3FITE7UY',
+        count: 1,
+        perwallet: 10,
+        price: 1.5,
+        priceTotal: 1.5,
     }
 ]
 export default wallets;
